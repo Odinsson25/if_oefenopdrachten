@@ -4,12 +4,6 @@ print("LET OP: Voer decimalen in als \"5.2\", niet als \"5,2\"") # Om fouten te 
 
 oppervlakte = float(input("Wat is de oppervlakte van de kamer in m²?") ) # Vraag om de opervlakkte van de kamer
 
-
-# Een andere manier waarop je de 2 regel hieboven kan toepassen, is op deze manier:
-# oppervlakte = float(input("Wat is de oppervlakte van de kamer in m²?").replace(",", ".")) # Vraag om de opervlakkte van de kamer
-#                                                                     Vervang de , met een .
-
-
 if not oppervlakte: # Als er GEEN oppervlakte is
     print("geen geldige input!")
 
