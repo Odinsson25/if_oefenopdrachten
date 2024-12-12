@@ -11,7 +11,7 @@ def gemiddelde(cijfer1, weging1, cijfer2, weging2): # Maak de functie aan
     return gemiddeld # Stuur het gemiddelde terug en beëindig de functie
 
     
-# Deze variabelen hebben 'Inp' in hun naam, hiermee weet je dat het om de input gaat.\
+# Deze variabelen hebben 'Inp' in hun naam, hiermee weet je dat het om de input gaat.
 cijfer1Inp = float(input("Voer cijfer 1 in:\t")) # Vraag om het cijfer
 weging1Inp = float(input("Voer de weging voor cijfer 1 in:  ")) or 1 # Vraag om de weging, geen weging => weging = 1
 
