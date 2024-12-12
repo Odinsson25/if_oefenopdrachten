@@ -9,7 +9,7 @@ if not oppervlakte: # Als er GEEN oppervlakte is
 
 print("De kamer is "+ str(oppervlakte) +" m²")
 
-oppervlakte *= 1.1 # Doe de oppervlakte keer 1.1   OF  oppervlakte = oppervlakte * 1.1
+oppervlakte = oppervlakte * 1.1 # Doe de oppervlakte keer 1.1   OF  oppervlakte *= 1.1
 
 oppervlakte = round(oppervlakte, 2) # Rond de oppervlakte af naar 2 decimalen 
 print("Er is "+ str(oppervlakte) +" m² nodig.")
